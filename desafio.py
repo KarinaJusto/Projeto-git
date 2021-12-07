@@ -1,6 +1,6 @@
 
-input = input('Informe o IP: ')
-#input = '172.17.135.233/25'
+#input = input('Informe o IP: ')
+input = '172.17.135.233/25'
 
 #Separar o IP da máscara (bitcount) (172.17.135.233/25)
 separar = input.split('/')
@@ -62,3 +62,8 @@ print('-'*65)
 Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
+
+
+#teste GIT
+teste = 'Teste alteração código para o GIT'
+print(teste)
