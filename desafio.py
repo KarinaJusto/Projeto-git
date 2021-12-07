@@ -6,10 +6,8 @@ input = input('Informe o IP: ')
 separar = input.split('/')
 ip = separar[0]
 mascara = separar[1]
-#print(ip,mascara)
 
 #Converter o IP para binário
-
 #Separar cada octeto (A,B,C e D)
 octeto = ip.split('.')
 a = octeto[0]
